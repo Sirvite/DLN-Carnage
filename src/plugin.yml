@@ -1,7 +1,7 @@
 name: DLN-Carnage
 version: 1.0.0
 main: me.sirvite.Main.Main
-author: Brandon Phillip
+author: BrandonPhillip
 
 commands:
    carnage: 
