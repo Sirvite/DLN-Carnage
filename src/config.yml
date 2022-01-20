@@ -1,0 +1,65 @@
+# Version 1.0
+command: "crate gk %player% Carnage 1"
+
+no-permission: "&d&l* &7You do not have permission! &d&l*"
+
+only-players: "&d&l* &7Only &d&nplayers&7 may execute this command!"
+
+config-reloaded: "&d&l* &7The configuration has been &a&nreloaded&7."
+
+already-running: "&d&l* &7There is already a &f&lCarnage&7 running!"
+
+next-carnage: "&d&l* &7The next &f&lCarnage&7 will start in: &a&n%time%"
+
+hologram-spawned: "&d&l* &7You have spawned in the &a&nInformation Hologram&7."
+
+hologram-already-spawned: "&d&l* &7You have already spawned in an &c&nInformation Hologram&7!"
+
+hologram-deleted: "&d&l* &7You have &a&nsuccessfully&c &ndeleted&7 the &a&nInformation Hologram&7!"
+
+no-hologram-to-delete: "&d&l* &7There is no &c&nInformation Hologram&7 to &c&ndelete&7!"
+
+location-set: "&d&l* &7You have set the &f&lCarnage&7 &a&nspawn&7 location!"
+
+carnage-force-start: "&d&l* &7You have &a&nforce started&7 a &f&lCarnage&7 Event!" # The message sent to the player who forcefully started KillFest
+
+no-carnage-stop: "&d&l* &7There is currently no &f&lCarnage&7 Event running!" # This message is sent to the player who is trying to forcefully stop KillFest
+
+player-started-countdown: "&d&l* &a&n%player%&7 has started the &f&lCarnage&7 countdown!" # You can use the placeholder %coords% to show the co-ordinates to the KillFest.
+
+already-on-countdown: "&d&l* &7The &f&lCarnage&7 Event is already on countdown!"
+
+cooldownEnded: "&d&l* &7The &f&nCarnage Crate&7 is now available to &a&nClaim&a!"
+
+countdown-ended: "&7"
+##################################################
+chesthologram-1: "&d&k|&f &lCarnage Crate &d&k|"
+chesthologram-2: "&d* &7Status: &d&l%status% &d*"
+chesthologram-3: "&d* &7Time: &d%time% &d*"
+##################################################
+infohologram-1: "&d&k|&f &lCarnage Information &d&k|"
+infohologram-2: "&d* &7Status: &d&l%status% &d*"
+infohologram-3: "&d* &7Time: &d%time% &d*"
+##################################################
+started-carnage:
+ lore:
+ - "&7"
+ - "&a&l* &7The &f&lCarnage Crate&7 has started &a&nUnlocking...&7!"
+ - "&7"
+##################################################
+message-event: "&a&l* &7The &f&lCarnage Crate&7 has started &a&nUnlocking...&7!"
+##################################################
+stop-carnage:
+ lore:
+ - "&7"
+ - "&c&l* &7The &f&lCarnage&7 Event has &c&nended&7!"
+ - "&7"
+##################################################
+carnage.start: "carnage.start"
+carnage.stop: "carnage.stop"
+carnage.reload: "carnage.reload"
+carnage.timer: "carnage.timer"
+carnage.setlootloc: "carnage.setlootloc"
+carnage.spawnholo: "carnage.spawnholo"
+carnage.mad: "carnage.start.madness"
+##################################################

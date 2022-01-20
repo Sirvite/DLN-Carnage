@@ -1,0 +1,8 @@
+name: DLN-Carnage
+version: 1.0.0
+main: me.sirvite.Main.Main
+author: Brandon Phillip
+
+commands:
+   carnage: 
+    description: Shows all usefull commands for the plugin.
